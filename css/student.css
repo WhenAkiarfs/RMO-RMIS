@@ -171,7 +171,7 @@ p{
 .sidebar {
     background-color: #7c0e00;
     width: 250px;
-    height: 100vh;
+    height: calc(100vh - 70px);
     position: absolute;
     left: -250px; /* Hide sidebar off-screen initially */
     transition: left 0.3s ease; /* Smooth transition for sliding */
@@ -238,7 +238,7 @@ p{
 .sidebar .logout-section {
     margin-top: auto; /* Ensure the logout section stays at the bottom */
     border-top: 1px solid #ccc;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 20px; /* Add padding for better visibility */
 }
 
